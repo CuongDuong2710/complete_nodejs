@@ -6,7 +6,7 @@ const os = require('os')
 var user = os.userInfo()
 console.log(user)
 
-fs.appendFile('greetings.txt', 'Hello word ' + user.username)
+fs.appendFile('greetings.txt', `Hello word ${user.username}`)
 
 /* { uid: -1,
   gid: -1,
