@@ -4,11 +4,11 @@ const fs = require('fs')
 const os = require('os')
 const notes = require('./notes')
 
-var res = notes.addNote()
-console.log(res)
+var plus = notes.plus(3, 5)
+console.log(plus)
 
-var resArrow = notes.addNoteArrow()
-console.log(resArrow)
+var minus = notes.minus(5, 3)
+console.log(minus)
 
 /* var user = os.userInfo()
 console.log(user)

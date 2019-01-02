@@ -11,3 +11,11 @@ module.exports.addNoteArrow = () => {
   console.log('addNoteArrow')
   return 'New note arrow'
 }
+
+module.exports.plus = function(a, b) {
+  return a + b
+}
+
+module.exports.minus = (a, b) => {
+  return a - b
+}
