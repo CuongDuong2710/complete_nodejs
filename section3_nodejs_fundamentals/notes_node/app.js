@@ -7,7 +7,7 @@ const notes = require('./notes')
 var user = os.userInfo()
 console.log(user)
 
-// fs.appendFile('greetings.txt', `Hello word ${user.username}`)
+fs.appendFile('greetings.txt', `Hello word ${user.username} . You are ${notes.age}.`)
 
 /* { uid: -1,
   gid: -1,
