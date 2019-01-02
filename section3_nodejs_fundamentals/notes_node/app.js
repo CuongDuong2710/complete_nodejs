@@ -4,13 +4,13 @@ const fs = require('fs')
 const os = require('os')
 const notes = require('./notes')
 
-var user = os.userInfo()
+var res = notes.addNote()
+console.log(res)
+
+var resArrow = notes.addNoteArrow()
+console.log(resArrow)
+
+/* var user = os.userInfo()
 console.log(user)
 
-fs.appendFile('greetings.txt', `Hello word ${user.username} . You are ${notes.age}.`)
-
-/* { uid: -1,
-  gid: -1,
-  username: 'cuong.duong',
-  homedir: 'C:\\Users\\cuong.duong',
-  shell: null } */
+fs.appendFile('greetings.txt', `Hello word ${user.username} . You are ${notes.age}.`) */
