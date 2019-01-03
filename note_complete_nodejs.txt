@@ -1,0 +1,3 @@
+> npm install
+
+we can delete 'node_modules' folder and run '> npm install' to install 3rd party again in dependencies package.json
