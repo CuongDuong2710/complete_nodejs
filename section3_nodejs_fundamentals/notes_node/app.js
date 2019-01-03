@@ -1,23 +1,11 @@
 console.log('Starting app')
 
 const fs = require('fs')
-const os = require('os')
 const _ = require('lodash')
+
 const notes = require('./notes')
 
-console.log(_.isString(true)) // false
-console.log(_.isString('Cuong')) // true
+console.log(process.argv)
 
-var filterdArray = _.uniq(['Cuong', 1, 'Cuong', 1, 2, 3, 4]) // [ 'Cuong', 1, 2, 3, 4 ]
-console.log(filterdArray)
-
-/* var plus = notes.plus(3, 5)
-console.log(plus)
-
-var minus = notes.minus(5, 3)
-console.log(minus) */
-
-/* var user = os.userInfo()
-console.log(user)
-
-fs.appendFile('greetings.txt', `Hello word ${user.username} . You are ${notes.age}.`) */
+/* [ 'C:\\Program Files\\nodejs\\node.exe',
+  'D:\\Android\\ToDo\\complete_nodejs\\section3_nodejs_fundamentals\\notes_node\\app.js' ] */
