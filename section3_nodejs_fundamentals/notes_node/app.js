@@ -2,13 +2,17 @@ console.log('Starting app')
 
 const fs = require('fs')
 const os = require('os')
+const _ = require('lodash')
 const notes = require('./notes')
 
-var plus = notes.plus(3, 5)
+console.log(_.isString(true)) // false
+console.log(_.isString('Cuong')) // true
+
+/* var plus = notes.plus(3, 5)
 console.log(plus)
 
 var minus = notes.minus(5, 3)
-console.log(minus)
+console.log(minus) */
 
 /* var user = os.userInfo()
 console.log(user)
