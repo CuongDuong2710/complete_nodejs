@@ -8,6 +8,9 @@ const notes = require('./notes')
 console.log(_.isString(true)) // false
 console.log(_.isString('Cuong')) // true
 
+var filterdArray = _.uniq(['Cuong', 1, 'Cuong', 1, 2, 3, 4]) // [ 'Cuong', 1, 2, 3, 4 ]
+console.log(filterdArray)
+
 /* var plus = notes.plus(3, 5)
 console.log(plus)
 
